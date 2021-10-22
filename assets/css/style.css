@@ -8,8 +8,7 @@
 }
 
 li,
-a,
-button {
+a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -43,7 +42,13 @@ header {
 }
 
 .header_btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
   padding: 9px 25px;
+  background: linear-gradient(#795ffd, #3518c9);
   border-color: aqua;
   border: none;
   border-radius: 50px;
