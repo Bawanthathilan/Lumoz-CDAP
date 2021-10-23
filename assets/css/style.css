@@ -259,13 +259,10 @@ a {
   padding: 30px 20%;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .feature_tabs {
     flex-direction: column;
   }
-}
-
-@media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
     left: -100%;
