@@ -319,6 +319,22 @@ a {
   text-align: center;
 }
 @media only screen and (max-width: 768px) {
+  .hero_text {
+    font-size: 1.2rem;
+  }
+  .logo_block {
+    display: none;
+  }
+  .hero_beta_btn {
+    font-size: 1rem;
+  }
+  .hero_bottom_text {
+    font-size: 1.3rem;
+  }
+  .img_demo_1 img {
+    width: 100%;
+    height: auto;
+  }
   .feature_tabs {
     flex-direction: column;
   }
