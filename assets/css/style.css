@@ -59,7 +59,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background: linear-gradient(#795ffd, #3518c9);
 }
 
 .header_btn {
@@ -312,9 +312,10 @@ a {
 }
 .desc_lumoz {
   font-size: 3rem;
-  color: #646977;
+  color: #363636;
 }
 .desc_para {
+  color: #646977;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -336,6 +337,7 @@ a {
   .hero_bottom_text {
     font-size: 1.3rem;
   }
+
   .img_demo_1 img {
     width: 100%;
     height: auto;
