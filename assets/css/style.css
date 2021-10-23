@@ -335,8 +335,28 @@ a {
     width: 100%;
     height: auto;
   }
+  .feature_section_heading {
+    margin-top: 100px;
+    top: auto;
+    bottom: auto;
+    font-size: 20px;
+  }
+  .feature_section_heading span {
+    font-size: 20px;
+  }
+  .feature_section_para {
+    font-size: small;
+  }
+  .lumoz_features_list_heading {
+    font-size: 30px;
+  }
+  .lumoz_features_list_heading span {
+    font-size: 30px;
+  }
   .feature_tabs {
     flex-direction: column;
+    align-items: center;
+    align-content: center;
   }
   .nav-menu {
     position: fixed;
