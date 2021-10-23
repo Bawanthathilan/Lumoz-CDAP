@@ -96,9 +96,10 @@ header {
 }
 
 .hero_beta_btn {
+  display: inline-block;
   margin-top: 20px;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 26px;
   color: #ffffff;
   text-decoration: none;
   padding: 9px 25px;
@@ -115,8 +116,8 @@ header {
 
 .hero_bottom_text {
   margin-top: 55px;
-  margin-bottom: 13px;
-  font-size: 2rem;
+  margin-bottom: 23px;
+  font-size: 1.7rem;
   opacity: 0.9;
   font-weight: 400;
   color: #646977;
