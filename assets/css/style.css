@@ -364,6 +364,18 @@ a {
     align-items: center;
     align-content: center;
   }
+  .project_scope_wrapper {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .desc_lumoz {
+    font-size: 30px;
+    white-space: pre;
+  }
+  .desc_para {
+    font-size: medium;
+  }
   .nav-menu {
     position: fixed;
     left: -100%;
