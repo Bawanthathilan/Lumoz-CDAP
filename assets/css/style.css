@@ -215,6 +215,7 @@ a {
   align-items: space-around;
   align-content: space-around;
   top: 250px;
+  margin: 0;
 
   background: none !important;
 }
@@ -225,6 +226,12 @@ a {
   flex-direction: row;
 }
 
+.feature_dots {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0;
+}
 .project_scope {
   background-color: #d9dadb;
   width: 100%;
