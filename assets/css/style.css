@@ -85,7 +85,7 @@ a:hover::after {
 }
 
 #backBtn:hover {
-  background-color: #555;
+  background: -webkit-linear-gradient(#419fdd, #a966e5);
 }
 .bar {
   display: block;
