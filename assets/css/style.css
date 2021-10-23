@@ -154,6 +154,7 @@ a:hover::after {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -315,7 +316,7 @@ a:hover::after {
   background-color: #fff;
   width: 100%;
 
-  height: 100vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
   padding: 30px 20%;
@@ -334,6 +335,230 @@ a:hover::after {
   color: #646977;
   font-size: 1.2rem;
   text-align: center;
+}
+
+.section_timeline {
+  background-image: url(https://www.mlegakis.com/uploads/1/6/2/6/16265388/background-images/247225258.jpg) !important;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+}
+.section_timeline_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.section_timeline_header_text {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #363636;
+}
+.timeline {
+  padding: 0px 5%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.timeline > .timeline-item {
+  display: flex;
+  align-items: flex-start;
+}
+.timeline > .timeline-item > div {
+  flex: 1;
+  padding: 20px 40px;
+}
+.timeline > .timeline-item > div:last-child {
+  text-align: left;
+  padding-bottom: 40px !important;
+}
+.timeline > .timeline-item > div:first-child::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #785efd;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 4px rgba(103, 58, 183, 0.2);
+}
+.timeline > .timeline-item:nth-child(odd) > div:first-child {
+  text-align: right;
+  position: relative;
+}
+.timeline > .timeline-item:nth-child(odd) > div:first-child::after {
+  right: -17px;
+}
+.timeline > .timeline-item:nth-child(odd) > div:last-child {
+  text-align: left;
+  border-left: 2px solid #e0e0e0;
+}
+.timeline > .timeline-item:nth-child(odd) > .timeline-date > div {
+  margin-right: 0px;
+}
+.timeline > .timeline-item:nth-child(odd) > .timeline-date > img {
+  right: 11%;
+  left: inherit;
+}
+.timeline > .timeline-item:nth-child(odd) > .timeline-content > h2 {
+  text-align: left !important;
+}
+.timeline > .timeline-item:nth-child(odd) > .timeline-content > p > img {
+  right: 0;
+}
+.timeline > .timeline-item:nth-child(even) > div:first-child {
+  order: 2;
+  text-align: left;
+  position: relative;
+}
+.timeline > .timeline-item:nth-child(even) > div:first-child::after {
+  left: -1px;
+}
+.timeline > .timeline-item:nth-child(even) > div:last-child {
+  order: 1;
+  text-align: right;
+  border-right: 2px solid #e0e0e0;
+}
+.timeline > .timeline-item:nth-child(even) > .timeline-date > div {
+  margin-left: 0px;
+}
+.timeline > .timeline-item:nth-child(even) > .timeline-date > img {
+  left: 11%;
+  right: inherit;
+}
+.timeline > .timeline-item:nth-child(even) > .timeline-content > h2 {
+  text-align: right !important;
+}
+.timeline > .timeline-item:nth-child(even) > .timeline-content > p > img {
+  right: inherit;
+  left: 0;
+  transform-origin: bottom left;
+}
+.timeline > .timeline-item:nth-child(even) > .timeline-content > p > button {
+  left: inherit;
+  right: 15px;
+}
+.timeline > .timeline-item .timeline-date {
+  position: relative;
+}
+.timeline > .timeline-item .timeline-date > img {
+  position: absolute;
+  filter: grayscale(100%);
+  opacity: 0.06;
+  transform: scale(1.2);
+  transform-origin: center;
+  left: 11%;
+}
+.timeline > .timeline-item .timeline-date > div {
+  background-image: linear-gradient(#785efd, #371bcb);
+  box-shadow: 0 10px 15px rgba(103, 58, 183, 0.3);
+  border-radius: 50px;
+  color: #ffffff;
+  text-align: center;
+  max-width: max-content;
+  margin: auto;
+  padding: 10px 30px;
+}
+.timeline > .timeline-item .timeline-content .fa-icon {
+  font-size: 30px;
+  color: #3518c9;
+}
+.timeline > .timeline-item .timeline-content > h2 {
+  color: #371bcb;
+  margin: 0px;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 7px;
+}
+.timeline > .timeline-item .timeline-content > h2 span {
+  color: #371bcb;
+  font-weight: bold;
+  font-size: 0.6em;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+.timeline > .timeline-item .timeline-content > p {
+  font-size: 0.9em;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(103, 58, 183, 0.08);
+  position: relative;
+  line-height: 25px;
+  padding-bottom: 60px;
+  min-height: 100px;
+}
+.timeline > .timeline-item .timeline-content > p > img {
+  width: 100px;
+  opacity: 0.05;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform-origin: bottom right;
+  transform: scale(1.8);
+}
+.timeline > .timeline-item .timeline-content > p > button {
+  background: no-repeat;
+  outline: none;
+  color: #785efd;
+  border: none;
+  padding: 7px 15px;
+  position: absolute;
+  bottom: 15px;
+  border-radius: 30px;
+  left: 15px;
+  box-shadow: 0 0px 2px rgba(103, 58, 183, 0.1);
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  font-weight: normal;
+  transition: all 0.5s ease;
+}
+.timeline > .timeline-item .timeline-content > p > button:hover {
+  background: #785efd;
+  box-shadow: 0 5px 10px rgba(103, 58, 183, 0.1);
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .timeline > .timeline-item {
+    flex-direction: column;
+    border-left: 2px solid #e0e0e0;
+  }
+  .timeline > .timeline-item .timeline-date > img {
+    display: none;
+  }
+  .timeline > .timeline-item > div {
+    border-width: 0px !important;
+    text-align: left !important;
+    order: unset !important;
+  }
+  .timeline > .timeline-item > div::after {
+    left: 0% !important;
+  }
+  .timeline > .timeline-item:nth-child(odd) > .timeline-content > h2 {
+    text-align: left !important;
+  }
+  .timeline > .timeline-item:nth-child(even) > .timeline-content > h2 {
+    text-align: left !important;
+  }
+  .timeline > .timeline-item:nth-child(even) > .timeline-content > p > img {
+    right: 0;
+    left: inherit;
+    transform-origin: bottom right;
+  }
+  .timeline > .timeline-item:nth-child(even) > .timeline-content > p > button {
+    left: 15px;
+    right: inherit;
+  }
 }
 @media only screen and (max-width: 768px) {
   .hero_text {
