@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500&display=swap');
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -114,10 +116,12 @@ a {
 }
 
 .hero_bottom_text {
-  margin-top: 55px;
+  margin-top: 50px;
   margin-bottom: 23px;
   font-size: 1.7rem;
   opacity: 0.9;
+  bottom: auto;
+  top: auto;
   font-weight: 400;
   color: #646977;
 }
@@ -242,8 +246,7 @@ a {
   padding: 30px 20%;
 }
 
-@media (max-width: 800px) {
-  
+@media screen and (max-width: 600px) {
   .feature_tabs {
     flex-direction: column;
   }
