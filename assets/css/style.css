@@ -241,3 +241,10 @@ a {
   align-items: center;
   padding: 30px 20%;
 }
+
+@media (max-width: 800px) {
+  
+  .feature_tabs {
+    flex-direction: column;
+  }
+}
