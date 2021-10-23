@@ -113,6 +113,7 @@ header {
 .img_demo_1 img {
   border-radius: 20px;
 }
+
 .feature_section {
   background: linear-gradient(#785efd, #371bcb);
   width: 100%;
@@ -146,7 +147,8 @@ header {
 }
 
 .feature_beta_btn {
-  margin-top: 20px;
+  margin: 20px;
+
   font-weight: 500;
   font-size: 16px;
   color: #381bcb;
@@ -175,7 +177,18 @@ header {
   color: #ffffff;
 }
 
-.feature_tabs svg {
+.feature_tab {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
-  background: none;
+}
+
+.project_scope {
+  background-color: #d9dadb;
+  width: 100%;
+
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20%;
 }
