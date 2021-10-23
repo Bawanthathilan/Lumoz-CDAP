@@ -410,6 +410,7 @@ a:hover::after {
   left: inherit;
 }
 .timeline > .timeline-item:nth-child(odd) > .timeline-content > h2 {
+  margin-bottom: 10px;
   text-align: left !important;
 }
 .timeline > .timeline-item:nth-child(odd) > .timeline-content > p > img {
@@ -436,6 +437,7 @@ a:hover::after {
   right: inherit;
 }
 .timeline > .timeline-item:nth-child(even) > .timeline-content > h2 {
+  margin-bottom: 10px;
   text-align: right !important;
 }
 .timeline > .timeline-item:nth-child(even) > .timeline-content > p > img {
