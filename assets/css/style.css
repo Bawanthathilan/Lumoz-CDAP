@@ -23,6 +23,10 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #fff;
 }
 
 .logo {
@@ -49,6 +53,7 @@ a {
 .bar {
   display: block;
   width: 25px;
+
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
