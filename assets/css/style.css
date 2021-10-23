@@ -296,7 +296,7 @@ a {
   right: 0;
 }
 .project_scope {
-  background-color: #d9dadb;
+  background-color: #fff;
   width: 100%;
 
   height: 100vh;
@@ -304,7 +304,20 @@ a {
   align-items: center;
   padding: 30px 20%;
 }
-
+.project_scope_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.desc_lumoz {
+  font-size: 3rem;
+  color: #646977;
+}
+.desc_para {
+  font-size: 1.2rem;
+  text-align: center;
+}
 @media only screen and (max-width: 768px) {
   .feature_tabs {
     flex-direction: column;
