@@ -322,8 +322,12 @@ a {
   .hero_text {
     font-size: 20px;
   }
-  .logo_block {
-    display: none;
+  .logo_block svg {
+    width: 100px;
+    top: 80px;
+  }
+  .vector_grid svg {
+    width: 40px;
   }
   .hero_beta_btn {
     font-size: 1rem;
