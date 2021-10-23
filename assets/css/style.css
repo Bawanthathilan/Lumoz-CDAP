@@ -162,6 +162,10 @@ header {
   transition: all 0.3s ease 0s;
 }
 
+.feature_beta_btn:hover {
+  font-size: 20px;
+}
+
 .lumoz_features_list_heading {
   margin-top: 40px;
   font-size: 3rem;
