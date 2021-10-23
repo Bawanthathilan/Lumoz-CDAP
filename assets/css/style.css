@@ -69,7 +69,20 @@ header {
   margin-top: 22px;
   padding: 0px 20%;
 }
+.vector_grid svg {
+  position: absolute;
+  background: none;
+  left: auto;
+  right: 17px;
+}
 
+.logo_block svg {
+  position: absolute;
+  left: 0%;
+  top: 350px;
+  right: auto;
+  background: none;
+}
 .hero_text {
   font-size: 3rem;
   background: -webkit-linear-gradient(#419fdd, #a966e5);
@@ -102,7 +115,10 @@ header {
 
 .hero_bottom_text {
   margin-top: 55px;
-  font-size: 1.2rem;
+  margin-bottom: 13px;
+  font-size: 2rem;
+  opacity: 0.9;
+  font-weight: 400;
   color: #646977;
 }
 .img_demo_1 {
