@@ -96,6 +96,9 @@ header {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
+.hero_beta_btn i {
+  background: none;
+}
 
 .hero_bottom_text {
   margin-top: 55px;
@@ -116,7 +119,7 @@ header {
   margin-top: 230px;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   padding: 30px 20%;
@@ -158,7 +161,7 @@ header {
 }
 
 .lumoz_features_list_heading {
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 3rem;
   background: none;
   font-weight: 400;
@@ -171,13 +174,8 @@ header {
   font-weight: 600;
   color: #ffffff;
 }
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  .feature_section_heading {
-    margin-top: 150px;
-    font-size: 3rem;
-    background: none;
-    font-weight: 400;
-    color: #ffffff;
-  }
+
+.feature_tabs svg {
+  margin-top: 30px;
+  background: none;
 }
