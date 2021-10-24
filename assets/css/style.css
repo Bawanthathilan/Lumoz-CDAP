@@ -125,6 +125,7 @@ a:hover::after {
   margin-top: 22px;
   padding: 0px 20%;
 }
+
 .vector_grid svg {
   position: absolute;
   background: none;
@@ -229,7 +230,38 @@ a:hover::after {
 .img_demo_1 img {
   border-radius: 20px;
 }
+.tagbox {
+  margin-top: 10px;
 
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.tag_btn:nth-of-type(1) {
+  opacity: 1;
+}
+.tag_btn {
+  font-weight: 500;
+  font-size: 15px;
+  opacity: 0.5;
+  color: #381bcb;
+  text-decoration: none;
+  padding: 9px 20px;
+  background-color: #fff;
+  border-color: aqua;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tagbox .tag_btn {
+  margin-left: 4px;
+}
+.tagbox .gai {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4px;
+}
 .feature_section {
   background: linear-gradient(#785efd, #371bcb);
   width: 100%;
@@ -249,11 +281,12 @@ a:hover::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 30px;
   align-items: center;
 }
 .feature_section_heading {
   margin-top: 230px;
-  font-size: 3rem;
+  font-size: 4vw;
   background: none;
   font-weight: 400;
   color: #ffffff;
@@ -261,7 +294,7 @@ a:hover::after {
 
 .feature_section_heading span {
   margin-top: 520px;
-  font-size: 3rem;
+  font-size: 4vw;
   background: none;
   font-weight: 600;
 }
@@ -597,6 +630,13 @@ a:hover::after {
   .hero_beta_btn {
     font-size: 1rem;
   }
+  .tagbox {
+    visibility: hidden;
+  }
+  .tagbox .gai {
+    display: none;
+  }
+
   .hero_bottom_text {
     font-size: 1.3rem;
   }
@@ -609,10 +649,12 @@ a:hover::after {
     margin-top: 100px;
     top: auto;
     bottom: auto;
-    font-size: 20px;
+    font-size: 1.5rem;
+
+    text-align: center;
   }
   .feature_section_heading span {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
   .feature_section_para {
     font-size: small;
