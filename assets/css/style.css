@@ -763,6 +763,18 @@ li,
     width: 100%;
     height: auto;
   }
+  .documents {
+    background: #fff;
+    width: 100%;
+    padding: 30px 10%;
+  }
+  .doc_section_title {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
   .feature_section_heading {
     margin-top: 100px;
     top: auto;
