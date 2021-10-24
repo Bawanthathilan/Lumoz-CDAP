@@ -594,8 +594,11 @@ li,
   justify-content: center;
 }
 .doc_section_title2 {
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 30px;
   color: #363636;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-self: center;
