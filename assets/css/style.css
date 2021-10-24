@@ -442,9 +442,24 @@ li,
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 30px;
+}
+.achivement_card img {
+  width: 100%;
+  height: auto;
 }
 .tech_header {
   color: #ffffff;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.tech_header2 {
+  color: #ffffff;
+  font-weight: 400;
   font-size: 3rem;
   display: flex;
   align-items: center;
@@ -787,6 +802,13 @@ li,
   .tech_header {
     font-size: 1.5rem;
     text-align: center;
+  }
+  .tech_header2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .achivement_card img {
+    width: 100%;
   }
   .c-dashboardInfo {
     width: 100%;
