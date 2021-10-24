@@ -741,6 +741,10 @@ li,
   .cards_sec {
     flex-direction: column;
   }
+  .c-dashboardInfo {
+    width: 100%;
+    height: auto;
+  }
   .hero_beta_btn {
     font-size: 1rem;
   }
